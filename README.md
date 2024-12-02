@@ -50,7 +50,7 @@ Integrate SwiftUI with platform-specific frameworks to expand your app's capabil
 
 1. Clone the repository:  
    ```bash
-   git clone https://github.com/yourusername/SwiftUI_1_Landmarks.git
+   git clone https://github.com/adysinghh/SwiftUI_1_Landmarks.git
    ```
 2. Open the project in **Xcode**.
 3. Follow the chapters and build the app alongside the tutorial.
