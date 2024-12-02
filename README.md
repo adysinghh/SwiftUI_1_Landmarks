@@ -1,5 +1,3 @@
-Here's a structured and informative README for your repository:
-
 ---
 
 # SwiftUI_1_Landmarks
