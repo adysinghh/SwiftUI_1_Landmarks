@@ -1,5 +1,3 @@
----
-
 # SwiftUI_1_Landmarks
 
 This repository contains my progress as I learn **SwiftUI** through the official tutorial from [Apple's website](https://developer.apple.com/tutorials/swiftui/). The tutorial guides you through building **Landmarks**, an app for discovering and sharing places you love. Along the way, it introduces essential SwiftUI concepts and techniques.
