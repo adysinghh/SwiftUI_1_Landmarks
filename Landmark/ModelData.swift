@@ -11,6 +11,8 @@ import Foundation
 class ModelData {
     var hikes: [Hike] = load("hikeData.json")
     var landmarks: [Landmark]  = load("landmarkData.json")
+    var profile = Profile.default //include an instance of the user profile that persists even after the user dismisses the profile view.
+    
     
     
     var features: [Landmark] {
