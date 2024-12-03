@@ -10,11 +10,24 @@ struct Landmark: Hashable, Codable, Identifiable {
     var state: String
     var description: String
     var isFavorite: Bool
+    var isFeatured: Bool
+    
+    var category: Category
+    enum Category: String, Codable, CaseIterable {
+        case lakes = "Lakes"
+        case mountains = "Mountains"
+        case rivers = "Rivers"
+    }
 
     
     private var imageName: String
     var image: Image {
         Image(imageName)
+    }
+    
+    //Computed property to the Landmark structure that returns the feature image, if it exists.
+    var featureImgae: Image? {
+        isFeatured ? Image(imageName + "_feature") : nil
     }
 
 
