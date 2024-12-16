@@ -28,9 +28,9 @@ Explore SwiftUI's drawing and animation capabilities, including paths, shapes, a
 Dive into creating more complex user interfaces with SwiftUI.
 
 #### Chapters  
-- [ ] **Composing complex interfaces** 
+- [x] **Composing complex interfaces** 
   Structure and design intricate app layouts.  
-- [ ] **Working with UI controls** 
+- [x] **Working with UI controls** 
   Learn to integrate various controls for interactive elements.  
 
 ### Framework Integration  
