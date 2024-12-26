@@ -14,12 +14,8 @@ struct CategoryHome: View {
     var body: some View {
         NavigationSplitView {
             List {
-                            modelData.features[0].image
-                                .resizable()
-                                .scaledToFill()
-                                .frame(height: 200)
-                                .clipped()
-                                .listRowInsets(EdgeInsets())//Sets the edge insets to zero on both kinds of landmark previews so the content can extend to the edges of the display.
+                PageView(pages: modelData.features.map {FeatureCard(landmark: $0)})
+                    .listRowInsets(EdgeInsets())
                 
                 ForEach(modelData.categories.keys.sorted(), id: \.self) { key in
                     CategoryRow(categoryName: key, items: modelData.categories[key]!)
