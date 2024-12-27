@@ -37,7 +37,7 @@ Dive into creating more complex user interfaces with SwiftUI.
 Integrate SwiftUI with platform-specific frameworks to expand your app's capabilities.
 
 #### Chapters  
-- [ ] **Interfacing with UIKit**
+- [x] **Interfacing with UIKit**
   Use SwiftUI views with UIKit components.  
 - [ ] **Creating a watchOS app**
   Build a watchOS companion for your app.  
@@ -61,7 +61,7 @@ Integrate SwiftUI with platform-specific frameworks to expand your app's capabil
 
 ### Chapters Completed  
 ✅ SwiftUI Essentials: *Completed*  
-✅ Drawing and Animation: *Completed up to Animations*  
+✅ Drawing and Animation: *Completed*  
 
 ### Next Steps  
 App Design and Layout: *In progress*  
