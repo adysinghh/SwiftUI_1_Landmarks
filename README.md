@@ -61,7 +61,7 @@ Integrate SwiftUI with platform-specific frameworks to expand your app's capabil
 
 ### Chapters Completed  
 ✅ SwiftUI Essentials: *Completed*  
-✅ Drawing and Animation: *Completed up to Animations*  
+✅ Drawing and Animation: *Completed*  
 
 ### Next Steps  
 App Design and Layout: *In progress*  
