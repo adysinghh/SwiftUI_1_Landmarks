@@ -6,6 +6,27 @@ struct MapView: View {
     
     var coordinate: CLLocationCoordinate2D
     
+    @AppStorage("MapView.zoom")
+    private var zoom: Zoom = .medium
+    
+    enum Zoom: String, CaseIterable, Identifiable {
+        case near = "Near"
+        case far = "Far"
+        case medium = "Medium"
+        
+        var id: Zoom {
+            return self
+        }
+    }
+    
+    var delta: CLLocationDegrees {
+        switch zoom {
+        case .near: return 0.02
+        case .far: return 0.2
+        case .medium: return 2
+        }
+    }
+    
     var body: some View {
         Map(position: .constant(.region(region)))
     }
@@ -14,7 +35,7 @@ struct MapView: View {
     private var region: MKCoordinateRegion {
         MKCoordinateRegion (
             center: coordinate ,
-            span: MKCoordinateSpan(latitudeDelta: 0.2, longitudeDelta: 0.2)
+            span: MKCoordinateSpan(latitudeDelta: delta, longitudeDelta: delta)
         )
     }
 }
