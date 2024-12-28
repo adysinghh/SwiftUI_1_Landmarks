@@ -116,7 +116,6 @@
 				Hikes/Hike.swift,
 				Landmark.swift,
 				landmarkData.json,
-				Landmarks/LandmarkList.swift,
 				Landmarks/LandmarkRow.swift,
 				LandmarksApp.swift,
 				ModelData.swift,
